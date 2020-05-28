@@ -1,0 +1,8 @@
+{
+	"short_name": "The Social Network",
+	"name": "The Social Network",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#141414",
+	"background_color": "#ffffff"
+}

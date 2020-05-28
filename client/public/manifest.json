@@ -1,0 +1,8 @@
+{
+	"short_name": "DPR MarketPlace",
+	"name": "DPR MarketPlace",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#141414",
+	"background_color": "#ffffff"
+}

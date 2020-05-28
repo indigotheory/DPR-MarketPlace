@@ -1,0 +1,81 @@
+{
+	"steps": [
+		{
+			"title": "Basic Info",
+			"description": "Start by adding a title for your personal data.",
+			"fields": {
+				"name": {
+					"label": "Title",
+					"placeholder": "e.g. Alice's friends in past month",
+					"type": "text",
+					"required": true,
+					"help": "Enter a title for your facebook data. Additional information can be added in the next step."
+				},
+				"files": {
+					"label": "Files",
+					"placeholder": "e.g. https://file.com/file.json",
+					"type": "text",
+					"required": true,
+					"help": "Provide one or multiple urls to your data, including data used if possible."
+				}
+			}
+		},
+		{
+			"title": "Description",
+			"description": "Further describe and categorize your facebook data to help people discover it.",
+			"fields": {
+				"description": {
+					"label": "Description",
+					"help": "Explain why your data might be useful to purchasers by adding as much detail as possible about your background, skills, career.",
+					"placeholder": "e.g. Alice works at IBM and connects all his work friends on facebook She has a good network of working professionals as her friends on facebook.",
+					"type": "textarea",
+					"required": true,
+					"rows": 5
+				},
+				"categories": {
+					"label": "Category",
+					"help": "Pick a category which best fits your social data type.",
+					"type": "select",
+					"required": true,
+					"options": [
+						"Posts",
+						"Photos and Videos",
+						"Comments",
+						"Likes and reactions",
+						"Friends",
+						"Stories",
+						"Following and Followers",
+						"Messages",
+						"Groups",
+						"Events",
+						"Profile Info",
+						"Pages",
+						"Marketplace",
+						"Payments",
+						"Saved Items and Collections",
+						"Your Places",
+						"Apps and Websites",
+						"Portal",
+						"Ads",
+						"Facebook Search",
+						"Location",
+						"About You",
+						"Security and Login Information",
+						"Different Activity"
+					]
+				},
+				"dateCreated": {
+					"label": "Start Date",
+					"help": "Select the start date for the data.",
+					"type": "date",
+					"required": true
+				}
+			}
+		},
+		{
+			"title": "Register",
+			"description": "Last step is to upload your data!",
+			"content": "After clicking the button below you will be asked by your Ocean wallet to sign this request. Once published, your personal data will be available for download on the The Social Network marketplace."
+		}
+	]
+}

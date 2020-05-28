@@ -1,2 +1,6 @@
-# DPR-MarketPlace
-A marketplace on top of ocean protocol where people can sell/share sensitive data related to covid19.
+
+<p align='center'>
+  <img src="./img/icon_sq.png" width=200/>
+</p>
+
+## Decentralized Pandemic Reserve-> Marketplace
