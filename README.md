@@ -4,3 +4,10 @@
 </p>
 
 ## Decentralized Pandemic Reserve-> Marketplace
+
+## Local Setup
+```
+yarn
+yarn start
+```
+Note: Keep Node version >= 12.1.0
