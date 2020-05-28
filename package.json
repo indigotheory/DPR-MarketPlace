@@ -1,5 +1,5 @@
 {
-	"name": "COVID19 Data Marketplace",
+	"name": "covid-data-marketplace",
 	"description": "A marketplace on top of ocean protocol where people can sell/share sensitive data related to covid19.",
 	"version": "1.0.0",
 	"license": "MIT",
