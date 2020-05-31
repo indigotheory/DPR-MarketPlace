@@ -31,7 +31,7 @@ export default class Search extends PureComponent<SearchProps, SearchState> {
 					type="search"
 					name="search"
 					label="Search for personal data"
-					placeholder="e.g. Posts and Videos"
+					placeholder="e.g. User Data"
 					value={search}
 					onChange={this.inputChange}
 					group={

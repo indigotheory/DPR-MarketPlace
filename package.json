@@ -19,7 +19,9 @@
 		"lint": "npm run lint:js && npm run lint:css",
 		"release": "release-it --non-interactive"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"node-sass": "^4.14.1"
+	},
 	"devDependencies": {
 		"@release-it/bumper": "^1.0.5",
 		"@typescript-eslint/eslint-plugin": "^1.6.0",
